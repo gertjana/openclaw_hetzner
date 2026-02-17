@@ -1,0 +1,12 @@
+hcloud_token   = "your-hetzner-api-token"
+server_name    = "openclaw-vps"
+server_type    = "cx23"
+image          = "ubuntu-24.04"
+location       = "nbg1"
+ssh_public_key = "ssh-ed25519 AAAA... you@machine"
+
+# Security: restrict SSH to your IP or VPN
+allowed_ssh_ips = ["YOUR_IP/32"]
+
+# Optional: Tailscale for zero-trust access
+# tailscale_auth_key = "tskey-auth-xxxxx"
