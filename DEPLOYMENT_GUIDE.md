@@ -47,10 +47,10 @@ Create each file with the content below.
    image          = "ubuntu-24.04"
    location       = "nbg1"  # Nuremberg, Germany
    ssh_public_key = "ssh-ed25519 AAAA... you@machine"
-   
+
    # Security: restrict SSH to your IP or VPN
    allowed_ssh_ips = ["YOUR_IP/32"]
-   
+
    # Optional: Tailscale for zero-trust access
    tailscale_auth_key = "tskey-auth-xxxxx"
    ```

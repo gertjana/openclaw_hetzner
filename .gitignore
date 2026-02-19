@@ -5,6 +5,9 @@
 .terraform.lock.hcl
 terraform.tfvars
 
+# TFlint files
+.tflint.hcl
+
 # Sensitive files
 *.pem
 *.key

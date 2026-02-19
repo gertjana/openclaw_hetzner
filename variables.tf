@@ -25,7 +25,7 @@ variable "image" {
 variable "location" {
   description = "Hetzner datacenter"
   type        = string
-  default     = "nbg1"  # Nuremberg, DE
+  default     = "nbg1" # Nuremberg, DE
 }
 
 variable "ssh_public_key" {
@@ -55,7 +55,7 @@ variable "tailscale_auth_key" {
 variable "allowed_ssh_ips" {
   description = "IPs allowed to SSH (use your static IP or VPN range)"
   type        = list(string)
-  default     = []  # Empty = SSH only via Tailscale if enabled
+  default     = [] # Empty = SSH only via Tailscale if enabled
 }
 
 variable "environment" {
