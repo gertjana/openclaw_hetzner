@@ -25,7 +25,7 @@ resource "hcloud_server" "vps" {
   labels = {
     managed-by  = "terraform"
     environment = var.environment
-    purpose     = "clawdbot"
+    purpose     = "openclaw"
   }
 }
 
