@@ -47,7 +47,7 @@ See [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md) for complete step-by-step instr
 
 ## 💰 Cost
 
-~$6.50/month for Hetzner CX22 (2 vCPU, 4GB RAM, 40GB SSD)
+~$3.49/month for Hetzner CX23 (2 vCPU, 4GB RAM, 40GB SSD, 20TB Traffic)
 
 ## 📖 Resources
 
